@@ -1,0 +1,74 @@
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d4d4d4;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 35px;
+    margin-bottom: 10px;
+  }
+  .forminsc{
+    margin-top:15px; 
+    height: 500px;
+    width: 400px;
+    border-radius: 2px;
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .photo{
+    font-size: 12px;
+    background: rgb(255, 255, 255);
+  }
+  .insc{
+      color: #1b1a1a;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  form input{
+    padding: 5px;
+    background: rgb(200, 197, 197);
+    margin-bottom: 2px;
+    border: none;
+    outline: none;
+  }
+  select{
+    padding: 5px;
+    border: none;
+    background: rgb(200, 197, 197);
+}
+option{
+    border: none;
+}
+button{
+    background: rgb(1, 255, 98);
+    border: 1px solid #d4d4d4;
+    font-size: 15px;
+    padding: 6px;
+    margin-top: 10px;
+  
+  }
+  button:hover{
+    background: rgb(157, 174, 224);
+    color: #303032;
+    cursor: pointer;
+  }
+  .link{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(24, 105, 55);
+  }
+  .student-name{
+    height: 60px;
+    width: 400px;
+    border-radius: 2px;
+    background: white;
+    padding: 10px;
+  }

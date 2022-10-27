@@ -1,0 +1,46 @@
+
+.logo{
+  height: 60px;
+  width: 60px;
+  border-radius: 35px;
+  margin-bottom: 10px;
+}
+.link{
+  margin-top: 6px;
+  text-decoration: none;
+  color: rgb(24, 105, 55);
+}
+.formlogin{
+  height: 400px;
+  width: 350px;
+  border-radius: 2px;
+  background: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form input{
+    padding: 5px;
+    background: rgb(200, 197, 197);
+    margin-bottom: 2px;
+    border: none;
+    outline: none;
+  }
+  button{
+    background: rgb(1, 255, 98);
+    border: 1px solid #d4d4d4;
+    font-size: 15px;
+    padding: 6px;
+    margin-top: 10px;
+  
+  }
+  button:hover{
+    background: rgb(157, 174, 224);
+    color: #303032;
+    cursor: pointer;
+  }
+  small{
+    color: tomato;
+  }
